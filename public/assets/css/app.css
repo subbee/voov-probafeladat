@@ -1,0 +1,138 @@
+body{
+    background-color: #F3F2E5;
+    color: #2F2D2A;
+    font-size: 16px;
+    font-family: "Instrument Sans", sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Instrument Serif", serif;
+    color: #2F2D2A;
+    margin: 30px 0;
+}
+.avatar-img{
+    width: 64px;
+    height: 64px;
+    margin-right: 40px;
+}
+.costumer-table {
+    border: 1px solid #9F9C95;
+    border-radius: 16px;
+    border-collapse: separate;
+    overflow: hidden;
+    border-spacing: 0;
+}
+.costumer-table td, .costumer-table th{
+    padding:16px;
+    vertical-align: middle;
+    border: 0px;
+    border-bottom: 1px solid #9F9C95;
+}
+.costumer-table tr:last-child td{
+    border: 0px;
+}
+.costumer-table th{
+    color:#9F9C95
+}
+
+.text-delete, .text-delete:visited, .text-delete:hover{
+    color: #2F2D2A;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.mw-340{
+    max-width: 340px;
+}
+
+input.form-control{
+    border-color: #9F9C95 !important;
+    border-radius: 12px !important;
+    color: #A29F99;
+    padding: 12px 14px !important;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #A29F99 !important;
+
+}
+
+::-ms-input-placeholder {
+    color: #A29F99 !important;
+}
+
+label{
+    color: #2F2D2A !important;
+    min-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.avatar[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+.avatar[type=radio] + img {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.avatar[type=radio]:checked + img {
+    outline: 3px solid #1453E2;
+}
+
+
+.rounded-container{
+    border: #9F9C95 solid 1px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.my--60{
+    margin: 60px auto
+}
+.mt--24{
+    margin-top: 24px;
+}
+.form-group{
+
+    padding: 12px 0;
+
+}
+
+.invalid-feedback{
+    color:#631508;
+}
+
+.btn-primary{
+    background-color: #1453E2;
+    border-radius: 12px;
+    max-width: 340px;
+    width: 100%;
+    padding: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight:700;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 767px) {
+    .rounded-container {
+        padding: 15px;
+    }
+    body{
+        padding: 10px ;
+    }
+    h1,h2,h3,h4,h5{
+        margin: 15px 0;
+    }
+}
